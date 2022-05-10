@@ -1,4 +1,4 @@
-{ 
+{
 	"ofertas": [
 		{
 			"id": 1,
@@ -9,10 +9,10 @@
 			"valor": 29.90,
 			"destaque": true,
 			"imagens": [
-				{"url": "/assets/ofertas/1/img1.jpg"},
-				{"url": "/assets/ofertas/1/img2.jpg"},
-				{"url": "/assets/ofertas/1/img3.jpg"},
-				{"url": "/assets/ofertas/1/img4.jpg"}
+				 "/assets/ofertas/1/img1.jpg",
+				 "/assets/ofertas/1/img2.jpg",
+				 "/assets/ofertas/1/img3.jpg",
+				 "/assets/ofertas/1/img4.jpg"
 			]
 		},
 		{
@@ -24,10 +24,10 @@
 			"valor": 32.90,
 			"destaque": true,
 			"imagens": [
-				{"url": "/assets/ofertas/2/img1.jpg"},
-				{"url": "/assets/ofertas/2/img2.jpg"},
-				{"url": "/assets/ofertas/2/img3.jpg"},
-				{"url": "/assets/ofertas/2/img4.jpg"}
+			 "/assets/ofertas/2/img1.jpg",
+			 "/assets/ofertas/2/img2.jpg",
+			 "/assets/ofertas/2/img3.jpg",
+			 "/assets/ofertas/2/img4.jpg"
 			]
 		},
 		{
@@ -39,10 +39,10 @@
 			"valor": 21.90,
 			"destaque": false,
 			"imagens": [
-				{"url": "/assets/ofertas/3/img1.jpg"},
-				{"url": "/assets/ofertas/3/img2.jpg"},
-				{"url": "/assets/ofertas/3/img3.jpg"},
-				{"url": "/assets/ofertas/3/img4.jpg"}
+				 "/assets/ofertas/3/img1.jpg",
+				 "/assets/ofertas/3/img2.jpg",
+				 "/assets/ofertas/3/img3.jpg",
+				 "/assets/ofertas/3/img4.jpg"
 			]
 		},
 		{
@@ -54,12 +54,12 @@
 			"valor": 31.90,
 			"destaque": true,
 			"imagens": [
-				{"url": "/assets/ofertas/4/img1.jpg"},
-				{"url": "/assets/ofertas/4/img2.jpg"},
-				{"url": "/assets/ofertas/4/img3.jpg"},
-				{"url": "/assets/ofertas/4/img4.jpg"},
-				{"url": "/assets/ofertas/4/img5.jpg"},
-				{"url": "/assets/ofertas/4/img6.jpg"}
+				 "/assets/ofertas/4/img1.jpg",
+				 "/assets/ofertas/4/img2.jpg",
+				 "/assets/ofertas/4/img3.jpg",
+				 "/assets/ofertas/4/img4.jpg",
+				 "/assets/ofertas/4/img5.jpg",
+				 "/assets/ofertas/4/img6.jpg"
 			]
 		},
 		{
@@ -71,8 +71,8 @@
 			"valor": 54.90,
 			"destaque": false,
 			"imagens": [
-				{"url": "/assets/ofertas/5/img1.jpg"},
-				{"url": "/assets/ofertas/5/img2.jpg"}
+				 "/assets/ofertas/5/img1.jpg",
+				 "/assets/ofertas/5/img2.jpg"
 			]
 		},
 		{
@@ -84,9 +84,9 @@
 			"valor": 89.90,
 			"destaque": false,
 			"imagens": [
-				{"url": "/assets/ofertas/6/img1.jpg"},
-				{"url": "/assets/ofertas/6/img2.jpg"}
+				 "/assets/ofertas/6/img1.jpg",
+				 "/assets/ofertas/6/img2.jpg"
 			]
-		}	
+		}
 	]
 }

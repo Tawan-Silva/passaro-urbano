@@ -14,14 +14,12 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
     // this.ofertas = this.ofertasService.getOfertas();
     // console.log(this.ofertas);
-    this.ofertasService.getOfertas2()
-    .then((ofertas: Oferta[]) => {
-      console.log('a função() foi resolvida depois de 3 segundos!');
+    this.ofertasService.getOfertas()
+    .then((ofertas: any) => {
       this.ofertas = ofertas
 
     })
     .catch((param: any) => {
-      console.log('Promise Reijeitada!!');
       console.log(param);
     });
   }
