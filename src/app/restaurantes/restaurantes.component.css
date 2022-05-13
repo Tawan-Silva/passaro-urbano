@@ -1,0 +1,15 @@
+img {
+    border-radius: 5px;
+    width: 320px;
+    height: 200px
+}
+
+.container {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.trancaTela {
+  max-width: 1280px;
+  margin: 0 auto;
+}
