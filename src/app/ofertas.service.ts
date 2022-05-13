@@ -5,13 +5,12 @@ import { lastValueFrom } from 'rxjs';
 import { URL_API } from './app.api';
 @Injectable()
 export class OfertasService {
-  http: any;
 
   constructor(private httpCliente: HttpClient) {}
 
   public getOfertas(): Promise<Oferta[]> {
     return lastValueFrom(
-      this.httpCliente.get(`${URL_API}?destaque=true`)
+      this.httpCliente.get(`${URL_API}/ofertas?destaque=true`)
     ).then((resposta: any) => {
       console.log(resposta);
 
@@ -22,7 +21,7 @@ export class OfertasService {
   public getOfertasPorCategoria(categoria: string): Promise<Oferta[]> {
     return lastValueFrom(
       this.httpCliente.get(
-        `${URL_API}?categoria=${categoria}`)
+        `${URL_API}/ofertas?categoria=${categoria}`)
         )
       .then((resposta: any) => {
         console.log('Enviado de getOfertasPorCategoria');
@@ -36,10 +35,24 @@ export class OfertasService {
   public getOfertasPorId(id: number): Promise<Oferta[]> {
     return lastValueFrom(
     this.httpCliente.get(
-      `${URL_API}?id=${id}`)
+      `${URL_API}/ofertas?id=${id}`)
       )
       .then((resposta: any) => {
         return resposta.shift();
       })
+  }
+
+  public getComoUsarOfertaPorId(id: number): Promise<string> {
+    return lastValueFrom(this.httpCliente.get(`${URL_API}/como-usar?id=${id}`))
+    .then((descricao: any ) => {
+      return descricao[0].descricao;
+    })
+  }
+  
+  public getOndeFicaOfertaPorId(id: number): Promise<string> {
+    return lastValueFrom(this.httpCliente.get(`${URL_API}/onde-fica?id=${id}`))
+    .then((descricao: any ) => {
+      return descricao[0].descricao;
+    })
   }
 }
