@@ -19,8 +19,7 @@ export class RestaurantesComponent implements OnInit {
       this.ofertas = ofertas;
     })
     .catch((error: string) => {
-      console.log("Deu merda" + error);
-
+      return error;
     })
   }
 

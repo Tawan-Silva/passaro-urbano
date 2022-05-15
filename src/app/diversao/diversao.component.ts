@@ -19,7 +19,7 @@ export class DiversaoComponent implements OnInit {
       this.ofertas = ofertas;
     })
     .catch((error: string) => {
-      console.log(error);
+      return error;
     })
   }
 

@@ -13,8 +13,6 @@ export class OfertasService {
     return firstValueFrom(
       this.httpCliente.get(`${URL_API}/ofertas?destaque=true`)
     ).then((resposta: any) => {
-      console.log(resposta);
-
       return resposta;
     });
   }
@@ -25,12 +23,10 @@ export class OfertasService {
         `${URL_API}/ofertas?categoria=${categoria}`)
         )
       .then((resposta: any) => {
-        console.log('Enviado de getOfertasPorCategoria');
         return resposta;
       })
       .catch((error: string) => {
-        console.log("Error");
-        console.log(error);
+        return error;
       });
   }
 
@@ -47,6 +43,7 @@ export class OfertasService {
   public getComoUsarOfertaPorId(id: number): Promise<string> {
     return firstValueFrom(this.httpCliente.get(`${URL_API}/como-usar?id=${id}`))
     .then((descricao: any ) => {
+
       return descricao[0].descricao;
     })
   }
@@ -62,7 +59,9 @@ export class OfertasService {
     return this.httpCliente.get(`${URL_API}/ofertas?descricao_oferta_like=${termo}`)
     .pipe(
       retry(10),
-      map((resposta: any) => resposta),
+      map((resposta: any) => {
+        return resposta;
+      })
   );
   }
 }
