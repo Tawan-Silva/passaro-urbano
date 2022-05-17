@@ -2,3 +2,21 @@
   margin-top: 50px;
   margin-bottom: 150px;
 }
+
+/*Seleciona apenas a classe dos inputs e selects*/
+/*que estejam com classe ng-invalid & ng-touched*/
+input.ng-invalid.ng.touched {
+  border: 1px solid crimson;
+}
+
+select.ng-invalid.ng-touched {
+  border: 1px solid crimson;
+}
+
+input.ng-valid.ng-touched {
+  border: 1px solid green;
+}
+
+select.ng-valid.ng-touched {
+  border: 1px solid green;
+}
