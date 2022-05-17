@@ -150,18 +150,11 @@
       "id": 1
     },
     {
-      "endereco": "Rua Teste",
+      "endereco": "Rua dos Senhores",
       "numero": "444",
-      "complemento": "Salada",
-      "formaPagamento": "debito",
-      "id": 2
-    },
-    {
-      "endereco": "Rua das palmeiras",
-      "numero": "777",
-      "complemento": "Casinhas",
+      "complemento": "Pé na Jaca",
       "formaPagamento": "dinheiro",
-      "id": 3
+      "id": 2
     }
   ]
 }
