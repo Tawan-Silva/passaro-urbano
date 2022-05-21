@@ -143,18 +143,88 @@
   ],
   "pedidos": [
     {
-      "endereco": "Rua iota",
-      "numero": "749",
-      "complemento": "Casa 02",
-      "formaPagamento": "dinheiro",
-      "id": 1
+      "endereco": "asdkfjdmaskdf",
+      "numero": "12",
+      "complemento": "dasfdasfsd",
+      "formaPagamento": "debito",
+      "itens": [
+        {
+          "id": 1,
+          "img": "/assets/ofertas/5/img1.jpg",
+          "titulo": "Kart",
+          "descricao_oferta": "Bateria de Kart de 30 minutos.",
+          "valor": 54.9,
+          "quatidade": 1
+        },
+        {
+          "id": 2,
+          "img": "/assets/ofertas/4/img1.jpg",
+          "titulo": "Estância das águas",
+          "descricao_oferta": "Diversão garantida com piscinas, trilhas e muito mais.",
+          "valor": 31.9,
+          "quatidade": 1
+        }
+      ],
+      "id": 2
     },
     {
-      "endereco": "Rua dos Senhores",
-      "numero": "444",
-      "complemento": "Pé na Jaca",
+      "endereco": "Rua camelita",
+      "numero": "156",
+      "complemento": "Residencial",
       "formaPagamento": "dinheiro",
-      "id": 2
+      "itens": [
+        {
+          "id": 5,
+          "img": "/assets/ofertas/5/img1.jpg",
+          "titulo": "Kart",
+          "descricao_oferta": "Bateria de Kart de 30 minutos.",
+          "valor": 54.9,
+          "quatidade": 2
+        },
+        {
+          "id": 4,
+          "img": "/assets/ofertas/4/img1.jpg",
+          "titulo": "Estância das águas",
+          "descricao_oferta": "Diversão garantida com piscinas, trilhas e muito mais.",
+          "valor": 31.9,
+          "quatidade": 1
+        }
+      ],
+      "id": 3
+    },
+    {
+      "endereco": "Rua francisco",
+      "numero": "744",
+      "complemento": "Casa 07",
+      "formaPagamento": "debito",
+      "itens": [
+        {
+          "id": 5,
+          "img": "/assets/ofertas/5/img1.jpg",
+          "titulo": "Kart",
+          "descricao_oferta": "Bateria de Kart de 30 minutos.",
+          "valor": 54.9,
+          "quatidade": 2
+        }
+      ],
+      "id": 4
+    },
+    {
+      "endereco": "Rua francisco",
+      "numero": "947",
+      "complemento": "Casa 09",
+      "formaPagamento": "dinheiro",
+      "itens": [
+        {
+          "id": 4,
+          "img": "/assets/ofertas/4/img1.jpg",
+          "titulo": "Estância das águas",
+          "descricao_oferta": "Diversão garantida com piscinas, trilhas e muito mais.",
+          "valor": 31.9,
+          "quatidade": 1
+        }
+      ],
+      "id": 5
     }
   ]
 }
