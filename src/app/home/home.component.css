@@ -2,3 +2,20 @@
   max-width: 1280px;
   margin: 0 auto;
 }
+
+.row {
+  padding-bottom: 50px;
+}
+
+
+.col-sm-4 {
+  margin-bottom: 10px;
+}
+
+
+.card-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}

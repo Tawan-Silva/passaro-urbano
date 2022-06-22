@@ -6,6 +6,13 @@
   background: #FFF;
 }
 
+.container-navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+
 .nav-link {
   color: #C1E4FF
 }
@@ -27,4 +34,30 @@
 
 .active {
   color: #FFF
+}
+
+
+@media screen and (max-width: 668px) {
+  .container-navbar {
+    padding: 0px 5px;
+  }
+
+  .col-md-2:nth-child(1) a img{
+      width: 150px;
+    }
+}
+
+@media screen and (max-width: 468px) {
+
+  .container-navbar {
+    gap: 2%;
+    padding: 0px 5px;
+  }
+
+  .col-md-2:nth-child(1) a img{
+    width: 100px;
+  }
+  .col-md-2 img{
+    width: 40px;
+  }
 }
